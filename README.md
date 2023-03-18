@@ -3,7 +3,7 @@ A personal collection of custom sandflies. They likely need tuning for your part
 # process_command_credential_leak
 Looks through the current process list to see if command line arguments leak credentials.
 # process_cron_credential_leak
-Looks through cron and at jobs to see if commands line arguments leak credentials (become visible in the process list).
+Looks through _cron_ and _at_ jobs to see if commands line arguments leak credentials (become visible in the process list).
 # user_history_credential_leak
 Looks through users' _.bash_history_ files to see if there is a credential leak.
 # end note
